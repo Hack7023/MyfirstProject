@@ -1,0 +1,76 @@
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    align-content: center;
+    max-width: 80%;
+    background: rgb(219, 128, 128);
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,p{
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+
+
+input{
+    align-items: center;
+    width: 80%;
+    margin: 5px;
+    border-radius: 5px;
+}
+input, placeholder{
+    margin: 5px;
+    text-align: center;
+}
+input,textarea{
+    display: block;
+    border: black;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn {
+    color: white;
+    background:rgb(224, 151, 151);
+    padding: 8px;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submitmsg{
+    text-align: center;
+   color: green;
+}
+.submitmsgerror{
+    text-align: center;
+   color: red;
+}
+.ifam{
+    height:100%;
+    width:50%;
+
+}
